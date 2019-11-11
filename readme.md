@@ -5,7 +5,7 @@ This plugin adds a `CustomFieldsComponent` and changes the `FindEntityPipeline` 
 Usage:
 ```
     var customFieldsComponent = sellableItem.GetComponent<CustomFieldsComponent>();
-    customFieldsComponent.Add("MyCustomField", myCustomField);
+    customFieldsComponent.CustomFields.Add("MyCustomField", myCustomField);
 ```
 
 The values in the CustomFieldsComponent will be copied to the shared settings on the ExternalSettingsComponent. 
